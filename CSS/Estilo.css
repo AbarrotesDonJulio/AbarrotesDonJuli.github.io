@@ -1,0 +1,250 @@
+Body{
+	Background-image: url("../Imagenes/BG.jpg");
+	Font-Family:Subtitulos;
+	Color:black;
+	Font-size:60px;
+	}
+/*Comando para los parrafos*/
+P{
+	Font-Family:Texto;
+	text-align:center;
+	Color:black;
+	Font-size:20px;
+	}
+/*Comando para las lineas*/
+hr{
+	Border:2px solid #1B4F72;
+	Border-radius: 5px;
+	width:90%;
+	}
+/*Comando para las tablas*/
+Table, tr, td{
+	border:1px solid;
+	border-color:#000000;
+	text-align:center;
+	background-color:#8CC6D1;
+	Font-size:20px;
+	}
+th{
+	background-color:#FFFFFF;
+	}
+/*Comando para las listas*/
+ul{
+	Font-Family: Texto;
+	Font-size:25px;
+	list-style-type:circle;
+	list-style-position:inside;
+	}
+ol{
+	Font-Family: Texto;
+	Font-size:25px;
+	list-style-type:upper-roman;
+	list-style-position:inside;
+	}
+/*Comando para las clases de cosas especificas*/
+.Titulo{
+	Font-Family: Titulos;
+	Color:black;
+	Font-size:50px;
+	Text-align: center;
+	}
+.pie{
+	Font-size:8 px;
+	color:Black;
+	Font-Family:Copy;
+	Text-align: center;
+	Font-weight: bold;
+	}
+.Tablas{
+	text-align:center;
+	Font-Family:Tablas;
+	Font-size:17px;
+	}
+.Marquesina{
+	height:350px;
+	width:525px;
+	}
+.Botones{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	}
+.Imgtablas{
+	height:275px;
+	width:150px;
+	}
+.Imagen{
+	height:400px;
+	width:600px;
+	border:2px solid #082D6D;
+	}
+/*Comando para tipos de letra especificas*/
+@font-face{
+	font-family: Titulos;
+	src: url(../fuentes/FreshFruit.ttf);
+	}
+@font-face{
+	font-family: Subtitulos;
+	src: url(../fuentes/TheHistoriaDemo.ttf);
+	}
+@font-face{
+	font-family: Texto;
+	src: url(../fuentes/Times.ttf);
+	}
+@font-face{
+	font-family: Tablas;
+	src: url(../fuentes/Cherry.ttf);
+	}
+@font-face{
+	font-family: Copy;
+	src: url(../fuentes/Little.ttf);
+	}
+.google{
+	font-family: 'Playfair Display', serif;
+	Font-size:8 px;
+	color:Black;
+	Text-align: center;
+	Font-weight: bold;
+	}
+*{
+	margin:0px;
+	padding:0px;
+	}
+div#top{
+	margin:auto;
+	width:90%;
+	height:75px;
+	background-image: radial-gradient(#5B6BD4, #9D74C2);
+	}
+div#Principal{
+	margin:auto;
+	margin-top:15px;
+	width:100%;
+	height:350px;
+	background-image: radial-gradient(#5BD4AA, #5BD4C9);
+	}
+div#Principal2{
+	margin:auto;
+	margin-top:15px;
+	width:100%;
+	height:420px;
+	background-image: radial-gradient(#5BD4AA, #5BD4C9);
+	}
+div#Pierr{
+	margin:auto;
+	margin-top:15px;
+	width:100%;
+	height:70px;
+	background-image: radial-gradient(#B5F3F0, #CEFBF9);
+	}
+div#Boton{
+	margin:auto;
+	margin-top:15px;
+	width:70%;
+	height:150px;
+	background-image: radial-gradient(#7AD45B, #5BD482);
+	}
+.Caja{
+	font-family: Tablas;
+	height: 300px;
+	width: 200px;
+	background: #76AEFB;
+	border: 1px solid #76AEFB;
+	margin: 10px;
+	color: Black;
+	text-align: center;
+	display: inline-block;
+	}
+.Caja:hover{
+	box-shadow: 0 0 20px White;
+	transform: scale(1.3);
+	}
+.Cajatx{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	color: Black;
+	font-weight: bold;
+	}
+.Txtra{
+	color: black;
+	font-family: Tablas;
+	padding-top: 5px;
+	font-size: 15px;
+	}
+.Txtra:hover{
+	font-size: 18px;
+	font-weight: bold;
+	}
+.Carrusel{
+	width: 460px;
+	margin: auto;
+	box-sizing: border-box;
+	}
+.Contecarrusel{
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+.Carruselitem{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing: border-box;
+	}
+.Carruseltarjeta{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	}
+.Carruselflechas{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	box-sizing: border-box;
+	}
+.Carruselflechas > i:hover{
+	cursor: pointer;
+	}
+.Carruselcontroller{
+	width:100%;
+	display: flex;
+	justify-content: space-evenly;
+	}
+.Carruselcontroller > a{
+	text-decoration: none;
+	font-size: 32px;
+	color: gray;
+	}
+.Carruselflechas > a > i{
+	color: white;
+	}
+.Descripcion{
+	font-family: Texto;
+	color: #000000;
+	border-color: #4766B2;
+	text-align: center;
+	background-image: radial-gradient(#5BD4AA, #5BD4C9);
+	Font-size: 20px;
+	width: 35%;
+	}
+.Descripcion:hover{
+	background-image: radial-gradient(#5BD4C9, #5BD4AA);
+	box-shadow: 0 0 20px #4766B2;
+	transform: scale(1.1);
+	color: #000000;
+	font-weight: bold;
+	}
+.Botones:hover{
+	box-shadow: 0 0 20px #5BD482;
+	transform: scale(1.1);
+	}
